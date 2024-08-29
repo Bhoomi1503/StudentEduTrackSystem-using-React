@@ -1,0 +1,40 @@
+.con{
+    flex: 0.5;
+    display: block;
+    background-color: blue;
+    height: 840px;
+    text-align: center;
+    width: 200px;
+    .logo{
+
+        img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+    }
+    .li1,.li2,.li3,.li4,.li5{
+        margin-bottom: 10px;
+    }
+    .icon{
+        font-size: 50px;
+        color: white;
+    }
+    .span{
+        text-align: center;
+        color: white;
+    }
+    .row{
+        display: flex;
+        margin-left: 30px;
+
+        .col{
+            margin: 15px;
+        }
+    }
+    .i{
+        color: white;
+        font-size: 20px;
+    }
+}
